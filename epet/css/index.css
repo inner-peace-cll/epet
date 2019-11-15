@@ -1,0 +1,50 @@
+/* banner */
+.banner{float: right;width: 970px;height: 364px;margin: 0 auto;position: relative;overflow: hidden;}
+.banner:after{content: "";clear: both;display:block;}
+.imgbox{width: 970px;height: 364px;}
+.imgbox img{width: 970px;height: 364px;position:absolute;left: 970px;top:0;}
+.imgbox img:nth-child(1){left:0}
+.btns input{width: 50px;height: 50px;border: none;border-radius: 50%;background: rgba(200, 200, 200, 0.6);position: absolute;top: 156px;}
+#left{left: 20px;}
+#right{right:20px;}
+/* 页面主体 */
+.floor{margin:28px 0;height: 610px;}
+.floor-1 .floor-1-top{height: 66px;}
+.floor-1 .floor-1-top h3{float: left;font:700 22px/66px "";}
+.floor-1 .floor-1-top .tab-control{float: right;height: 66px;}
+.floor-1 .floor-1-top .tab-control li{float: left;width: 88px;height: 66px;font:14px/66px "";text-align: center;}
+.floor-1 .floor-1-top .tab-control li.active{border: 2px solid #e74085;border-bottom: none;color:#e74085}
+.floor-1 .floor-1-mid .hot-sell{float:left;width: 330px;height: 474px;position: relative;}
+.floor-1 .floor-1-mid .hot-sell .hots{height: 180px;width: 330px;background:rgba(248, 243, 243, 0.8);position: absolute;bottom:-4px;}
+.floor-1 .floor-1-mid .hot-sell .hots p{font: 18px/36px "";text-align: center;color:#666;}
+.floor-1 .floor-1-mid .hot-sell .hots ul{width: 100%;height: 144px;display: flex;justify-content: space-around;flex-wrap: wrap;box-sizing: border-box;padding:8px;}
+.floor-1 .floor-1-mid .hot-sell .hots ul li{width: 88px;height: 24px;border-radius: 10px;background: #fff;font:14px/24px "";text-align: center;}
+.floor-1 .floor-1-mid .hot-sell .hots ul li:hover a{color:#e74085;}
+.floor-1 .floor-1-mid .container{float: right;width: 870px;height: 474px;border-top:2px solid #e74085;}
+.floor-1 .floor-1-mid .container .cont{height: 474px;display: none;}
+.floor-1 .floor-1-mid .container .cont:nth-child(1){display: block;}
+.floor-1 .floor-1-mid .container .cont:nth-child(2){background: #48d1cc;}
+.floor-1 .floor-1-mid .container .cont:nth-child(3){background: #20b2aa;}
+.floor-1 .floor-1-mid .container .cont:nth-child(4){background: #008080;}
+/* 选项卡盒子布局 */
+a.goodslink{display: block;width: 100%;height: 100%;position: relative;}
+a.goodslink img{transition: All 0.3s ease-in-out;z-index: -1;}
+a.goodslink:hover img{transform: translate(-10px, 0);}
+a.goodslink .slogan{position: absolute;top:28px;left:30px;}
+a.goodslink .slogan h4{font: 600 16px/28px "";}
+a.goodslink .slogan p{font: 14px/26px "";color:#ff6630;}
+.container .cont .cont-top{height: 298px;width: 100%;display: flex;}
+.container .cont .cont-top .cont-top-right{flex:1;display: flex;flex-direction: column;}
+.container .cont .cont-bottom{height: 176px;width: 100%;display: flex;}
+.floor-1 .cont-brand{width: 1200px;height: 68px;display: flex;justify-content: space-between;border-top:2px solid #e74085;}
+.floor-1 .cont-brand a{display: block;width: 133px;height: 68px;background: url(../images/icon04.png) no-repeat;}
+.floor-1 .cont-brand a.a2{background-position: -133px 0;}
+.floor-1 .cont-brand a.a3{background-position: -266px 0;}
+.floor-1 .cont-brand a.a4{background-position: -399px 0;}
+.floor-1 .cont-brand a.a5{background-position: -532px 0;}
+.floor-1 .cont-brand a.a6{background-position: -655px 0;}
+.floor-1 .cont-brand a.a7{background-position: -798px 0;}
+.floor-1 .cont-brand a.a8{background-position: -931px 0;}
+.floor-1 .cont-brand a p{width: 133px;height: 78px;background: rgba(255, 255, 255, 0.5);display: none;}
+.floor-1 .cont-brand a:hover p{display: block;}
+.floor img.lazyload{width: 1200px;height: 610px;}

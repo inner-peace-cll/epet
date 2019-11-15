@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/publicstyle.css" />
+    <link rel="stylesheet" href="sass/login.css" />
+</head>
+
+<body>
+    <div class="headTop">
+        <div class="layout">
+            <div class="headTop-left">
+                <ul>
+                    <li><a href="index.html"><i class="i1"></i>&nbsp;首页</a></li>
+                    <li><a href="goodslist.html"><i class="i2"></i>&nbsp;E宠就是正品</a></li>
+                </ul>
+            </div>
+            <div class="headTop-right">
+                <ul>
+                    <li><a href="login.html">[登录]</a></li>
+                    <li><a href="register.html">[注册]</a></li>
+                    <li><a href="shoppingcart.html"><i class="i3"></i>&nbsp;购物车</a></li>
+                    <li><a href="#"><i class="i4"></i>&nbsp;我的E宠</a></li>
+                    <li><a href="#"><i class="i5"></i>&nbsp;收藏</a></li>
+                    <li><a href="#"><i class="i6"></i>&nbsp;手机版</a></li>
+                    <li><a href="#">问题反馈</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="loginbg">
+
+    </div>
+    <div class="loginbox">
+        <div class="logincont">
+            <div class="formhead">
+                <span>手机验证码登录</span><span>账号登录</span>
+            </div>
+            <form action="">
+                <input type="text" name="" id="user" placeholder="请输入手机号/账号">
+                <input type="password" name="" id="pass" placeholder="请输入密码">
+                <input type="button" name="" id="login" value="登录">
+            </form>
+            <div class="formbottom">
+                <div>
+                    <i></i><i class="i1"></i><i class="i2"></i>
+                </div>
+                <div>
+                    <a href="register.html">手机快速注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/login.js"></script>
+<script src="js/jquery.js"></script>
+<script>
+    //正则
+    function $(id) {
+        return document.getElementById(id);
+    }
+    var oBtn = $('login');
+    var oUser = $('user');
+    var oPass = $('pass');
+
+    oUser.onblur = function () {
+        var sUser = oUser.value;
+        var reg = /^[a-z0-9_\-\u4e00-\u9fa5]{4,20}$/gi;
+        if (reg.test(sUser)) {
+            oUser.style.border = "2px solid green";
+            aValidate[0] = true;
+        } else {
+            oUser.style.border = "2px solid red";
+            aValidate[0] = false;
+        }
+    }
+
+    oPass.onblur = function () {
+        var sPass = oPass.value;
+        var reg = /^[^\\*\u4e00-\u9fa5]{6,20}$/;
+        if (reg.test(sPass)) {
+            oPass.style.border = "2px solid green";
+            aValidate[1] = true;
+        } else {
+            oPass.style.border = "2px solid red;"
+            aValidate[1] = false;
+        }
+    }
+</script>
+
+</html>

@@ -1,0 +1,76 @@
+{
+    "goods": [
+        {
+            "goodsId": 1,
+            "magnifyImg": "https://img1.epetbar.com/goods/sales/20190516180026_12734.jpg@!200w-c",
+            "title": "加拿大原装进口纽顿 无谷低升糖系列 去骨鳟鱼&三文鱼全龄猫粮 1.5kg",
+            "price": "￥220.00",
+            "priceOne": "220.00",
+            "discount": "￥180.00",
+            "detailsImg": "https://img1.epetbar.com/2017-12/07/16/388667c9416341df4394385ca1e62451.jpg@!water"
+        },
+        {
+            "goodsId": 2,
+            "magnifyImg": "https://img1.epetbar.com/goods/sales/20190516175714_469388.jpg@!200w-c",
+            "title": "加拿大原装进口纽顿 无谷低升糖系列 去骨鸡肉&火鸡肉全龄猫粮 1.5kg",
+            "price": "￥180.00",
+            "priceOne": "158.00",
+            "discount": "￥158.00",
+            "detailsImg": "https://img1.epetbar.com/2018-04/28/11/f69cb6f3aae6961d18dae0353d6c936b.jpg@!water"
+        },
+        {
+            "goodsId": 3,
+            "magnifyImg": "https://img1.epetbar.com/common/upload/commonfile/2019/010/29/180857_656588.jpg@!200w-c",
+            "title": "加拿大原装进口 爱肯拿Acana 无谷深海鱼配方全猫粮 5.4kg",
+            "price": "￥600.00",
+            "priceOne": "520.00",
+            "discount": "￥520.00",
+            "detailsImg": "https://img1.epetbar.com/2018-04/28/11/f69cb6f3aae6961d18dae0353d6c936b.jpg@!water"
+        },
+        {
+            "goodsId": 4,
+            "magnifyImg": "https://img1.epetbar.com/common/upload/commonfile/2019/010/29/180651_601078.jpg@!200w-c",
+            "title": "加拿大原装进口 爱肯拿Acana 无谷鸡肉鱼配方全猫粮 5.4kg",
+            "price": "￥550.00",
+            "priceOne": "480.00",
+            "discount": "￥480.00",
+            "detailsImg": "https://img1.epetbar.com/2018-04/28/11/f69cb6f3aae6961d18dae0353d6c936b.jpg@!water"
+        },
+        {
+            "goodsId": 5,
+            "magnifyImg": "https://img1.epetbar.com/2017-02/22/18/5400a79fcc7df720829b32841c64311a.jpg@!200w-c",
+            "title": "耐吉斯SOLUTION 比利时版 鸡肉三文鱼室内猫粮 6.8kg",
+            "price": "￥460.00",
+            "priceOne": "388.00",
+            "discount": "￥388.00",
+            "detailsImg": "https://img1.epetbar.com/2018-04/28/11/f69cb6f3aae6961d18dae0353d6c936b.jpg@!water"
+        },
+        {
+            "goodsId": 6,
+            "magnifyImg": "https://img1.epetbar.com/common/upload/commonfile/2019/010/11/165526_733471.jpg@!200w-c",
+            "title": "耐吉斯SOLUTION 加拿大版 鸡肉+三文鱼室内成猫粮 1.5kg",
+            "price": "￥135.00",
+            "priceOne": "110.00",
+            "discount": "￥110.00",
+            "detailsImg": "https://img1.epetbar.com/2018-04/28/11/f69cb6f3aae6961d18dae0353d6c936b.jpg@!water"
+        },
+        {
+            "goodsId": 7,
+            "magnifyImg": "https://img1.epetbar.com/2017-12/05/15/132afd77b1483aea4a32f2721f202073.jpg@!200w-c",
+            "title": "新西兰原装进口爱娣iti 鸡肉三文鱼猫粮主食肉干 1kg",
+            "price": "￥389.00",
+            "priceOne": "319.00",
+            "discount": "￥319.00",
+            "detailsImg": "https://img1.epetbar.com/2018-04/28/11/f69cb6f3aae6961d18dae0353d6c936b.jpg@!water"
+        },
+        {
+            "goodsId": 8,
+            "magnifyImg": "https://img1.epetbar.com/goods/sales/20190516175741_415307.jpg@!200w-c",
+            "title": "加拿大原装进口纽顿 无谷低升糖系列 去骨鸡肉&火鸡肉全龄猫粮 5.45kg",
+            "price": "￥530.00",
+            "priceOne": "480.00",
+            "discount": "￥480.00",
+            "detailsImg": "https://img1.epetbar.com/2018-04/28/11/f69cb6f3aae6961d18dae0353d6c936b.jpg@!water"
+        }
+    ]
+}

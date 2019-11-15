@@ -1,0 +1,18 @@
+ul.goodsMenu{display: none;}
+li.category:hover ul.goodsMenu{display: block;}
+/* 放大镜 和 加入购物车*/
+.purchase{width: 1200px;height: 410px;display: flex;justify-content: space-between;margin-top:10px}
+.purchase .magnifying{width: 450px; height: 410px;display: flex;flex-direction: column;justify-content: center;}
+.purchase .magnifying .magnify-img{width: 300px;height: 300px;margin: 0 auto;}
+.purchase .magnifying h5{font: 14px/20px "";margin:20px 30px;}
+.purchase .add-to-cart{box-sizing:border-box;width: 740px;height: 410px;background: #fcfcfc;padding:40px 40px 20px 40px;}
+.purchase .add-to-cart h3{font:600 20px/50px "";}
+.purchase .add-to-cart h4{font:14px/80px "";color:#9b9a98;width: 630px;height: 80px;background: #f3f3f3;padding-left:30px;}
+.purchase .add-to-cart h4 .span1{text-decoration: line-through;}
+.purchase .add-to-cart h4 .span2{font:600 28px/80px "";color:#ed3945}
+.purchase .add-to-cart p{font:14px/100px "";float: left;width: 660px;}
+.purchase .add-to-cart p .augment,.subtract{height: 30px;width: 30px;text-align: center;}
+.purchase .add-to-cart p .inputnum{height: 28px;width: 30px;border:none;padding:0 10px;}
+.purchase .add-to-cart .addTo{font:14px/30px "";color:#fff;width: 190px;height: 56px;background: #ed3945;border: none;margin:40px 0;}
+.goods-detail{display: flex;flex-direction: column;justify-content: center;background:#f3f3f3;margin:0 0 60px 0;}
+.goods-detail img{margin:40px 100px;}
